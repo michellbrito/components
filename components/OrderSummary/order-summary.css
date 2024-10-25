@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+.container {
+    align-items: center;
+    background-color: #e0e8ff;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    background-color: #ffffff;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    height: 697px;
+    text-align: center;
+    width: 450px;
+}
+
+.cardHeader {
+    background-color: #382ae1;
+    background-image: url("./images/illustration-hero.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px 20px 0px 0px;
+    height: 220px;
+    margin-bottom: 45px;
+    width: 100%;
+}
+
+.title {
+    color: #1f2e55;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 37px;
+}
+
+.description {
+    color: #717fa6;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    height: 78px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    margin-left: 48px;
+    text-align: center;
+    width: 354px;
+}
+
+.planBtn {
+    align-items: center;
+    background: #f7f9ff;
+    border-radius: 11px;
+    display: flex;
+    height: 98px;
+    justify-content: center;
+    margin-left: 48px;
+    width: 354px;
+}
+
+.plan {
+    flex-grow: 1;
+    height: 48px;
+    width: 92px;
+}
+
+.change {
+    color: #382ae1;
+    flex-grow: 1;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    height: 19px;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+
+.change:hover {
+    color: #766cf1;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.type {
+    color: #1f2e55;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 19px;
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+
+.price {
+    color: #717fa6;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    height: 19px;
+    line-height: 19px;
+    margin: 0;
+}
+
+.musicIcon {
+    background-image: url("./images/icon-music.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 48px;
+    margin-left: 24px;
+    width: 48px;
+}
+
+.payBtn {
+    align-items: center;
+    background: #382ae1;
+    border-radius: 11px;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin-bottom: 32px;
+    margin-left: 48px;
+    margin-top: 32px;
+    width: 354px;
+}
+
+.payBtn:hover {
+    background: #766cf1;
+    cursor: pointer;
+}
+
+.payBtn p {
+    color: #ffffff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    height: 20px;
+    line-height: 20px;
+}
+
+.cancel {
+    color: #717fa6;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    height: 20px;
+    line-height: 20px;
+}
+
+.cancel:hover {
+    color: #1f2e55;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card {
+        height: 567px;
+        width: 327px;
+    }
+
+    .cardHeader {
+        height: 160px;
+        margin-bottom: 32px;
+    }
+
+    .title {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+    .description {
+        width: 263px;
+        height: 75px;
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 24px;
+        margin-left: 32px;
+    }
+
+    .planBtn {
+        width: 279px;
+        height: 81px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 32px;
+    }
+
+    .payBtn {
+        margin-top: 24px;
+        margin-bottom: 24px;
+        margin-left: 32px;
+        width: 279px;
+        height: 50px;
+    }
+
+    .container {
+        background-image: url("./images/pattern-background-mobile.svg");
+    }
+}
