@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import codeBg from "./images/image-qr-code.png";
+import codeBg from "./images/qr-code.png";
 import { QRCode } from "./index";
 
 export default {
@@ -43,7 +43,6 @@ const StyledWrapper = styled.div`
   font-family: "Outfit", serif;
   height: 100%;
   justify-content: center;
-  padding: 16px 16px 40px 16px;
 `;
 
 const Template = (args) => (
